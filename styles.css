@@ -1,6 +1,4 @@
 
-}
-
 img {
     max-width: 100%;
     height: auto;
@@ -25,8 +23,8 @@ body {
 
 /* NAVBAR */
 .topbar {
-    display: flex;
-    align-items: center;
+    display: flex;  /*FLEXBOX*/
+    align-items: center; /*centrerer logo og links lodret*/
     padding: 20px 60px;
     background-color: #F2D85C; /* din gule farve */
 }
@@ -48,9 +46,9 @@ body {
 }
 
 .nav {
-    display: flex;   /*FLEXBOKS placere navigation ryger til højre */
-    gap: 32px;
-    margin-left: auto;
+    display: flex;   /*FLEXBOX*/
+    gap: 32px; /*skaber ens afstand mellem links */
+    margin-left: auto; /*skubber nav over i højre side*/
 }
 
 
@@ -80,12 +78,12 @@ body {
     margin-top: 60px;
 }
 
-/* FEATURE SECTION */
+/* Et trygt sted for idéer at vokse sektion */
 .feature {
     background-color: #F2D85C;
-    display: flex;                   /*layout i kolonner, god spacing, lodret justering */
-    justify-content: space-between;
-    align-items: center;
+    display: flex;    /*FLEXBOX*/
+    justify-content: space-between; /*skaber luft mellem ikon og teskt*/
+    align-items: center; /*sørger for lodret justering*/
     padding: 80px 100px;
 }
 
